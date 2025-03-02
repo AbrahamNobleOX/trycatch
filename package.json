@@ -1,0 +1,38 @@
+{
+  "name": "@clevali/trycatch",
+  "version": "1.0.0",
+  "description": "A lightweight, type-safe try/catch wrapper for handling async operations in TypeScript. Simplifies error handling by providing a consistent, type-safe way to handle both success and error cases.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbrahamNobleOX/trycatch.git"
+  },
+  "keywords": [
+    "typescript",
+    "result",
+    "error-handling",
+    "async"
+  ],
+  "author": "Abraham Akintola",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.11.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.6",
+    "typescript": "^5.3.0"
+  }
+}

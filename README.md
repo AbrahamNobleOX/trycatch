@@ -21,7 +21,11 @@ npm install @clevali/trycatch
 ### Basic Usage
 
 ```typescript
+import { tryCatch } from "@clevali/trycatch";
+
 const result = await tryCatch(sampleFunction());
+
+const { error, data } = result;
 ```
 
 ### Example Usage

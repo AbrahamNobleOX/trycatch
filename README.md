@@ -55,6 +55,7 @@ async function main() {
   if (result.error) {
     console.log(result.error.code); // 400
     console.log(result.error.message); // "Bad Request"
+    cosole.log(result.error.stack); // stack trace
   }
 
   console.log(result.data); // "Hello, world!"

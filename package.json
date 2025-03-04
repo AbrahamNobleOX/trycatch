@@ -1,6 +1,6 @@
 {
   "name": "@clevali/trycatch",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A lightweight, type-safe try/catch wrapper for handling async operations in TypeScript. Simplifies error handling by providing a consistent, type-safe way to handle both success and error cases.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
